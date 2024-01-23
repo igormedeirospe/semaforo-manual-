@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1000px;
+    text-align: center;
+}
+#sec-1{
+    height: 100vh;
+}
+.botao{
+    width: 100px;
+
+}
+.sociais{
+    position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);
+    display: flex;
+    font-size: 22px;
+}
+#imglink{
+    width: 22px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
